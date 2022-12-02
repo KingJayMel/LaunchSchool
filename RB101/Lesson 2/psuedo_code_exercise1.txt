@@ -1,0 +1,19 @@
+ # Casual
+  program asks for the first number
+  stores that first number
+  program asks for the second number
+  stores that second number
+  create an array
+  push the two numbers into the array
+  using array sum, create the result
+# FORMAL
+
+  Start
+  
+  PRINT Hi, please input your first number
+  num1 = GET
+  PRINT Also, your second number
+  num2 = GET
+  SET a = []
+  a.push(num1, num2)
+  SET result = a.sum
