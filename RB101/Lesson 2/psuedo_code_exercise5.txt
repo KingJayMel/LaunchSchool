@@ -1,0 +1,44 @@
+# Casual
+  Start making the method, call it merge and use 2 varables in it (a), (b)
+  have 'a' do count (a.count) and let that variable = l.
+  have 'b' do count (b.count) and let that variable = v.
+  make n = l + v 
+  make countmain = 1
+  make count1 = 0
+  make count2 = 0
+  make count3 = 0
+  & make c = []
+  make a conditonal while (while countmain < n)
+    make a conditonal if (if count1 = 0)
+      make it so that it adds the first element from the array and puts into a new array
+      then change it so it adds the first element from the other array.
+# Formal
+
+START
+
+DEF merge(a), (b)
+SET l = a.count
+SET v = b.count 
+SET n = l + v 
+SET countmain = 1
+SET count1 = 0
+SET count2 = 0
+SET count3 = 0
+SET c = []
+WHILE countmain < n 
+  IF count1 == 0
+    SET U = a[count2]
+    c.push(u)
+    SET count2 = count2 + 1
+    SET count1 = count1 + 1
+    SET countmain = countmain + 1
+  IF count1 == 1
+    SET I = a[count3]
+    c.push(I)
+    SET count3 = count3 + 1
+    SET count = count1 - 1
+    SET countmain = countmain + 1
+
+PRINT c 
+
+END 

@@ -1,0 +1,24 @@
+  # Casual
+
+  Start defining the method as "every_other" with (a) as the inner variable
+  make k = a.count
+  make c = []
+  make a variable called count1 = 0
+  make a while count1 < (k - 1)
+  in that while, p = a[count1]
+  do c.push(p)
+  then count1 = count1 + 2
+  c
+  # Formal
+
+  START 
+
+  DEF "every_other"(a)
+  SET k = a.count
+  SET c = []
+  SET count1 = 0
+  while count1 < (k-1)
+    SET p = a[count1]
+    c.push(p)
+    SET count1 = count1 + 2
+  c 

@@ -1,0 +1,13 @@
+  # Casual
+  define the method as joint with (a) as the sub for the method
+  use array join to add the words together
+  end the method
+  # Formal
+
+  START
+
+  def joinwords (a)
+  a.join
+  end
+
+  

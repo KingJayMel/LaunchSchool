@@ -1,0 +1,13 @@
+# Casual
+  make the starting method call it x counter with a variable(a)
+  a.index('x', -3)
+  end
+# Formal
+
+  START
+
+  DEF xcounter(a)
+    a.index('x', -3)
+  end
+
+  END
